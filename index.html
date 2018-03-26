@@ -5,13 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Blog/Portfolio of a Tech Engineer">
-	<meta name="author" content="Cris Vizcaino">
+    <meta name="author" content="Cris Vizcaino">
+    <!-- favicon -->
+    <link rel="icon" href="../img/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="../img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
     <title>Cris Vizcaino - Bear All</title>
 
     <!--BootStrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <link href="assets/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>
@@ -28,7 +50,7 @@
 
     <!-- NAVIGATION
         ========================= -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="#">Cris Vizcaino - BearAll.Net</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -37,24 +59,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
+                  <a class="nav-link" href="pages/portfolio.html">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link disabled" href="#">Disabled</a>
+                  <a class="nav-link" href="pages/blog.html">Blog</a>
                 </li>
               </ul>
             </div>
@@ -65,13 +76,74 @@
     <!-- HERO
         ========================= -->
 
+        <section id="hero" data-type="background" data-speed="5">
+
+          <!-- Main jumbotron for a primary marketing message or call to action -->
+          <div class="jumbotron" id="home">
+            <div class="container" id="home-banner">
+              <h1 class="display-3" id="font-banner">CRIS VIZCAINO</h1>
+              <p class="hero-subcolor">Software and Web Developer - Backend Dev Experience</p>
+              <p class="sub-font">Don't mind the bears!!</p>
+            </div>
+          </div>
+    
+          <div class="container" id="blog-section">
+            <!-- Example row of columns -->
+            <div class="row">
+              <div class="col-md-4">
+                <h2>Heading</h2>
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+              </div>
+              <div class="col-md-4">
+                <h2>Heading</h2>
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+              </div>
+              <div class="col-md-4">
+                <h2>Heading</h2>
+                <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+              </div>
+            </div>
+    
+            <hr>
+    
+          </div> <!-- /container -->
+    
+        </section>
     <!-- MY INFO
         ========================= -->
+        <section id="about" data-type="background" data-speed="5">
+
+          <!-- Main jumbotron for a primary marketing message or call to action -->
+          <div class="jumbotron" id="about">
+            <div class="container" id="about-banner">
+              <h4 class="display-3" id="font-banner">Hello, World!</h4>
+              <h6 class="display-4" id="font-banner">About Me</h6>
+              <p>My name is <strong>Cris Vizcaino</strong> I'm an experienced Web, software and backend Developer. Experiences include C#, Java, HTML, CSS, JavaScript. Some AngularJS and NodeJS. 
+              also have some experience with php and SQL. I am familiar with creating tables and stored procedures. More info on my LinkedIn page:           <a href="https://www.linkedin.com/in/cristobalvizcaino/" class="badge social linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
+
+              <p>Love footbal,baseball,basketball video games, books and movies</p>
+
+   
+            </div>
+          </div>
     
+
+    
+        </section>
+
     <!-- FOOTER
         ========================= -->
 
+        <footer class="container" id="footer-s">
+          <p class="footer"></p><strong>©BearAll</strong> 2017-2018</p>
+        
+          <a href="https://twitter.com/bradhussey" class="badge social twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/cristobalvizcaino/" class="badge social linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
 
+        </footer>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

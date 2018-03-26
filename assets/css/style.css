@@ -1,0 +1,218 @@
+/* COLOUR REFERENCES
+
+Grays & Blue: #525564 
+Slate Blue:	  #74828F 
+half baked blue:  #96C0CE 
+Orange white:  #FEF6EB 
+fuzzy wuzzy brown: #C25B56
+
+https://www.colorcombos.com/color-schemes/7626/ColorCombo7626.html
+
+*/
+
+h1{
+    color: #FEF6EB;
+}
+.hero-background{
+    background-color:#525564;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	font-weight: bold;
+}
+
+
+
+a:link, a:visited {
+	color: #dd5638;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #c9302c;
+}
+
+blockquote {
+	padding: 0;
+	border: none;
+	font-style: italic;
+	text-align: left;
+}
+
+blockquote cite {
+	display: block;
+	color: #777;
+	margin: 15px 0 0 0;
+}
+
+blockquote:before {
+	display: none;
+}
+
+
+
+button, input, .btn, a.btn {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	color: white;
+}
+
+.btn {
+	font-weight: bold;
+}
+
+.btn:focus {
+	outline: none;
+}
+
+.btn-success {
+	background: #79b044;
+	border: none;
+}
+
+.btn-success:hover {
+	background: #6a9b3d;
+	border-color: #6a9b3d;
+}
+
+.btn-danger {
+	background-color: #dd5638;
+	border-color: #d95131;
+}
+
+.text-danger, li.text-danger a {
+	color: #dd5638;
+}
+
+a.text-danger:hover {
+	color: #e55939;
+}
+
+
+
+.badge.social {
+	background: #ccc;
+	font-size: 24px;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	line-height: 42px;
+	margin: 0 5px 20px 0;
+	padding: 0;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	color: white;
+}
+
+
+.badge.social.twitter:hover {
+	background: #55acee;
+}
+
+.badge.social.facebook:hover {
+	background: #3b5998;
+}
+
+.badge.social.linkedin:hover {
+	background: #db4b39;
+}
+
+
+.hero-subcolor{
+    color: #96C0CE;
+    font-size: 2em;
+}
+
+.sub-font{
+  color: #C25B56;
+  font-size: 1.5em;
+}
+
+.about-background{
+  background-color:#525564;
+}
+
+
+#home { 
+    background: url('../img/black-grizzly-bear.jpg') 50% 0 repeat fixed; min-height: 500px; 
+    height: 300px; 
+    margin: 0 auto; 
+    width: 100%; 
+    max-width: 1920px; 
+    position: relative; 
+  }
+   
+  #home article { 
+    height: 300px; 
+    position: absolute; 
+    text-align: center; 
+    top: 150px; 
+    width: 100%; 
+  }
+
+  #home-banner{
+    padding-top: 5em;
+    background-color: #525564;
+    opacity: .9;
+    position: relative;
+    text-align: center; 
+  }
+
+  #about-banner{
+    padding-top: 1em;
+    background-color: #C25B56;
+    background-size: 30%;
+    opacity: 0.9;
+    
+    text-align: center; 
+    padding: 2em 2em 2em 2em;
+  }
+  
+  .font-banner{
+    opacity: 0;
+  }
+  #about { 
+    background: url('../img/hello-grizzly.jpg') 50% 0 repeat fixed; min-height: 500px; 
+    height: 200px; 
+    margin: 0 auto; 
+    width: 100%; 
+    max-width: 1920px; 
+    position: relative; 
+    -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  }
+   
+  #about article { 
+    height: 458px; 
+    position: absolute; 
+    text-align: center; 
+    top: 150px; 
+    width: 100%; 
+  }
+
+  #blog-section{
+    padding-top: 2em;
+  }
+
+  #footer-s{
+    padding-top: 3em;
+  }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  p{
+    font-size: .5em;
+  }
+  h1,h2,h3,h4,h5,h6{
+    font-size: 1em;
+  }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+} 
+
