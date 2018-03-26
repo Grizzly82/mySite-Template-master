@@ -195,11 +195,71 @@ a.text-danger:hover {
 
   #blog-section{
     padding-top: 2em;
+    padding-bottom: 2em;
   }
 
   #footer-s{
     padding-top: 3em;
   }
+
+  #blog { 
+    background: url('../img/gray-wood.jpg') 50% 0 repeat fixed; min-height: 500px; 
+    height: 300px; 
+    margin: 0 auto; 
+    width: 100%; 
+    max-width: 1920px; 
+    position: relative; 
+  }
+   
+  #blog article { 
+    height: 300px; 
+    position: absolute; 
+    text-align: center; 
+    top: 150px; 
+    width: 100%; 
+  }
+
+  #blog-banner{
+    padding-top: 5em;
+    background-color: #525564;
+    opacity: .9;
+    position: relative;
+    text-align: center; 
+  }
+
+  /* Portfolio */ 
+  #port { 
+    background: url('../img/gray-wood.jpg') 50% 0 repeat fixed; min-height: 500px; 
+    height: 300px; 
+    margin: 0 auto; 
+    width: 100%; 
+    max-width: 1920px; 
+    position: relative; 
+  }
+   
+  #port article { 
+    height: 300px; 
+    position: absolute; 
+    text-align: center; 
+    top: 150px; 
+    width: 100%; 
+  }
+
+  #port-banner{
+    padding-top: 1em;
+    background-color: #525564;
+    opacity: .9;
+    position: relative;
+    text-align: center; 
+  }
+
+.port-border{
+  border: solid #C25B56;
+}
+
+.port-border-section{
+  padding-top: 2em;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
