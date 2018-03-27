@@ -157,6 +157,9 @@
     
     <script type="text/javascript" src="//use.typekit.net/gla7wnd.js"></script>
 	  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-    
+    <script type="text/javascript">
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('service-worker.js');
+      }</script>
 </body>
 </html>
